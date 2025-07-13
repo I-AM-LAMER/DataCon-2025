@@ -1,0 +1,8 @@
+{
+  "train_data": "fine_tune_set.smi",
+  "epochs": 5,
+  "batch_size": 64,
+  "lr": 1e-4,
+  "output_dir": "reinvent_model_finetuned",
+  "pretrained_model": "reinvent_base"
+}

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "task-1"
+version = "0.1.0"
+description = ""
+authors = ["I-AM-LAMER <vadimtatarnikov300605@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.1"
+numpy = "^2.3.1"
+scikit-learn = "^1.7.0"
+xgboost = "1.7.6"
+torch = {version = "^2.7.1+cpu", source = "torch-cpu"}
+notebook = "^7.4.4"
+ipykernel = "^6.29.5"
+matplotlib = "^3.10.3"
+
+[[tool.poetry.source]]
+name = "torch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
